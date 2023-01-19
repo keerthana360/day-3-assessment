@@ -1,0 +1,125 @@
+SECTION A:
+
+4.What are the major features in different versions of Spring Framework?
+
+The major features of Spring Framework are:
+1)IoC Container
+2)Data access Framework
+3)MVC Framework
+4)Transaction Management
+5)Spring Web Service
+6)JDBC abstraction layer
+7)Spring TestContext framework
+
+
+2.What is a Spring Framework?
+
+The Spring Framework is an open-source framework for building web applications with Java as a programming language. 
+It is powerful and lightweight yet easy to use, and it provides support for developing Java applications easily. 
+Spring is a lightweight framework that can be thought of as a framework of frameworks
+because it also offers support for various frameworks such as hibernate, struts, tapestry, and JSF.
+
+3.List the advantages of Spring Framework
+Advantages are:
+1)Light weight
+2)Flexible
+3)Loose coupling
+4)Spring Framework is fast developing
+5)And it also have lot of Pre-defined Templates.
+
+
+5.How many modules are there in Spring Framework and what are they
+
+There are so many modules in the Spring Framework. They are:
+1) Spring MVC
+2) Spring Core
+3) Spring REST
+4) Spring Boot
+5) Spring JDBCTemplates
+
+6.What is a Spring configuration file?
+
+Spring configuration file is basically a XML file which mainly contains the classes information and describes how those classes are configured and linked to each other.
+
+7.What are the different components of a Spring application?
+
+The components of a Spring application are
+1)Interface
+2)Bean Class
+3)User program
+
+
+8.What are the various ways of using Spring Framework?
+
+1)It can be used as a full time Spring web application.
+2)Using Spring Frameworks middle-tier, it can be used as a third-party web framework.
+3)It can be used for remote usage.
+
+
+9.What is Spring IOC Container?
+
+The IoC container is responsible to instantiate, configure and assemble the objects. 
+The IoC container gets informations from the XML file and works accordingly.
+
+
+10.What do you mean by Dependency Injection?
+
+Dependency injection is basically providing the objects that an object needs instead of having it construct them itself. 
+It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out
+
+
+11.How to install spring boot in IntelliJ IDEA?
+
+Spring Boot is built on the top of the spring and contains all the features of spring. 
+And is becoming a favorite of developers these days because of its rapid production-ready environment which enables the developers to directly focus on the logic instead of struggling with the configuration and setup. 
+Spring Boot is a microservice-based framework and making a production-ready application in it takes very little time.
+
+
+12.Please change default server port from 8080 to 9090?
+We should go to application properties and then write server.port = 9090.
+Then the default server port will change from 8080 to 9090.
+
+
+13.How to resolve whitelabel error page in spring boot application?
+We have different methods to resolve whitelabel error page
+1)By implementing the ErrorController interface provided by the Spring Framework itself and overrides its getErrorPath() method to return a custom path to call when an error occurred
+2)Create a error.html page and put it into the src/main/resources/templates directory. Spring Boot’s BasicErrorController will automatically be picked it up by default.
+3)By setting the server.error.whitelabel.enabled property to false in the application.properties file, we can disable the white label error page.
+
+
+15.Differentiate between a Bean Factory and an Application Context.
+1)The Spring Framework comes with two IOC containers – BeanFactory and ApplicationContext. The BeanFactory is the most basic version of IOC containers, and the ApplicationContext extends the features of BeanFactory.
+2)BeanFactory loads beans on-demand, while ApplicationContext loads all beans at startup. Thus, BeanFactory is lightweight as compared to ApplicationContext.
+
+
+16.Difference between Autowired , Inject and Qualifier Annotation
+
+Inject annotation is part of Java CDI which was introduced in Java 6, whereas @Autowire annotation is part of spring framework. Both annotations fulfill same purpose therefore, anything of these we can use in our application.
+
+
+
+SECTION B:
+
+1. D
+2. A
+3. B
+4. A
+5. B
+6. A
+7. A
+8. A
+9. A
+10. D
+11. B 
+12. A
+13. B
+14. B
+15. D
+16. C
+17. A
+18. B
+19. C
+20. D
+
+
+
